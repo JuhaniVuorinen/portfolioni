@@ -3,17 +3,14 @@ import ClickCount from './components/clickCount/clickCount';
 import SomeExampleComponent from './components/example/someExampleComponent'
 import React from 'react'
 import AboutMe from './components/aboutMe/aboutMe';
-
-
-
-//import MyFirstComponent from './components/myFirstComponent';
+import Navbar from './components/navbar/navbar';
+import Homepage from './components/homePage/homepage';
 
 const App: React.FC = () => {
   return (
     <div>
-      <AboutMe />
-      <SomeExampleComponent />
-      
+      <Navbar />
+       <Homepage />
     </div>
   )
 }

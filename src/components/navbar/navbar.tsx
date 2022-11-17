@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import styles from './navbar.module.scss'
 
 type NavbarProps = {
 
@@ -7,11 +8,11 @@ type NavbarProps = {
 
 const Navbar: React.FC<NavbarProps> = () => {
   return (
-    <div>
-      <Link to="/">Home</Link> 
-      <Link to="first">My First Component</Link>
+    <div className={styles.container}>
+       <Link to="/"></Link> 
+      <Link to="HomePage">HomePage</Link>
     </div>
   )
 }
 
-export default NavbarProps
+export default Navbar;
