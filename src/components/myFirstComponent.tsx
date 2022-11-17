@@ -12,5 +12,4 @@ const MyFirstComponent: React.FC<MyFirstComponentProps> = () => {
     </div>
   )
 }
-
 export default MyFirstComponent

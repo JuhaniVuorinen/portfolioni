@@ -8,7 +8,7 @@ type SomeExampleComponentProps = {
 const SomeExampleComponent: React.FC<SomeExampleComponentProps> = () => {
   return (
     <div className={styles.container}>
-  <h1>Header</h1>
+  <h1></h1>
   <p>My supercool component</p>
     </div>
   )

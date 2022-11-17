@@ -6,18 +6,25 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: url('./Images/OIP\ \(16\).jpg');
+      background-size: cover;
+      
   
     h1 {
-      font-size: 52px;
+      font-size: 70px;
       color: azure;
       text-shadow: 2px 2px #7860ff;
+      
     }
   
     p {
       font-weight: 700;
-      font-size: 25px;
+      font-size: 30px;
       color: rgb(206, 255, 255);
-      background:#1abc9c;
       padding: 10px;
+      justify-content: right;
+      align-content: right;
     }
+    
   }
+  
